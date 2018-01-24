@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--圆形进度条-->
+    <declare-styleable name="CircleProgress">
+        <attr name="startAngle" format="float"/>
+        <attr name="sweepAngle" format="float"/>
+        <attr name="maxProgress" format="float"/>
+        <attr name="progress" format="float"/>
+        <attr name="finishColor" format="color"/>
+        <attr name="unfinishColor" format="color"/>
+        <attr name="radius" format="dimension"/>
+        <attr name="finishWidth" format="dimension"/>
+        <attr name="unfinishWidth" format="dimension"/>
+        <attr name="showAnim" format="boolean"/>
+        <attr name="animDuration" format="integer"/>
+    </declare-styleable>
+</resources>
